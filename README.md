@@ -1,5 +1,5 @@
 # Parallel Twitter in Postgres
-
+ 
 ![](https://github.com/cristywei/twitter_postgres_parallel/workflows/tests_normalized/badge.svg)
 
 ![](https://github.com/cristywei/twitter_postgres_parallel/workflows/tests_normalized_parallel/badge.svg)
