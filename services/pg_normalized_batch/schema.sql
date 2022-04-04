@@ -9,7 +9,7 @@ BEGIN;
  * inside of a tweet someone else's tweet.
  */
 CREATE TABLE users (
-    id_users BIGINT PRIMARY KEY,
+    id_users BIGINT,
     created_at TIMESTAMPTZ,
     updated_at TIMESTAMPTZ,
     url TEXT,
@@ -30,7 +30,7 @@ CREATE TABLE users (
  * Tweets may be entered in hydrated or unhydrated form.
  */
 CREATE TABLE tweets (
-    id_tweets BIGINT PRIMARY KEY,
+    id_tweets BIGINT,
     id_users BIGINT,
     created_at TIMESTAMPTZ,
     in_reply_to_status_id BIGINT,
@@ -74,6 +74,7 @@ CREATE TABLE tweet_tags (
     id_tweets BIGINT,
     tag TEXT
 );
+
 COMMENT ON TABLE tweet_tags IS 'This table links both hashtags and cashtags';
 CREATE INDEX tweet_tags_index ON tweet_tags(id_tweets);
 
