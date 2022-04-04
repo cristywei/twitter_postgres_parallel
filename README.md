@@ -8,7 +8,7 @@
 
 ![](https://github.com/cristywei/twitter_postgres_parallel/workflows/tests_normalized_batch_parallel/badge.svg)
 
-![](https://github.com/cristwei/twitter_postgres_parallel/workflows/tests_denormalized/badge.svg)
+![](https://github.com/cristywei/twitter_postgres_parallel/workflows/tests_denormalized/badge.svg)
 
 ![](https://github.com/cristywei/twitter_postgres_parallel/workflows/tests_denormalized_parallel/badge.svg)
 
